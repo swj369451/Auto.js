@@ -5,7 +5,7 @@ threads.start(function () {
             beginBtn.click();
         }
         var bluetoothBtn;
-        if (bluetoothBtn = classNameContains("Button").textContains("配对").findOne(2000)) {
+        if (bluetoothBtn = classNameContains("Button").textContains("配对和连接").findOne(2000)) {
             bluetoothBtn.click();
         }
     }
